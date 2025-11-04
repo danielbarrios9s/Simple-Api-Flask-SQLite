@@ -1,0 +1,19 @@
+[project]
+name = "proyectflask"
+version = "0.1.0"
+description = "This is a simple proyect whit Flask and MySQL"
+authors = [
+    {name = "Daniel Barrios Calderon"}
+]
+license = {text = "no aplica"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flask (>=3.1.2,<4.0.0)",
+    "flask-sqlalchemy (>=3.1.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
